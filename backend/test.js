@@ -4,7 +4,7 @@ const {User} = require('./db');
 async function testSchema() {
   try {
     await mongoose.connect(
-      'mongodb+srv://mukesh:mongodbpassword@practise-cluster.4uq6ier.mongodb.net/myDatabaseName?retryWrites=true&w=majority'
+      'MONGODB URL'
     );
     console.log('Connected to MongoDB');
 
